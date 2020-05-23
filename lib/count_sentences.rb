@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences(string)
-  iteratearr= string.split 
-  self.iteratearr.count{ |a| a== "." || a== "?" || a== "!"}
+  iteratearr= self.split 
+  iteratearr.count{ |a| a== "." || a== "?" || a== "!"}
   end
 end
