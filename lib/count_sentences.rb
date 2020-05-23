@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences(string)
-  
+  iteratearr= string.to_a 
+  iteratearr.count()
   end
 end
