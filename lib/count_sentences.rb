@@ -24,7 +24,7 @@ class String
  # else iteratearr.each.with_index do |words_punctuations, i| if words_punctuations== "?" || words_punctuations== "." || words_punctuations== "!"
     delete 
    end
-  end
+  
 
 p iteratearr.size 
 iteratearr
