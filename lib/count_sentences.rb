@@ -21,7 +21,7 @@ class String
   iteratearr = sentence.split(/\.|\?|\!/)  #self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
   if iteratearr.size.nil?
     0 
-    iteratearr.reject! {|word| word == ""} 
+  else iteratearr.reject! {|word| word == ""} 
  
      end
 p iteratearr.size 
