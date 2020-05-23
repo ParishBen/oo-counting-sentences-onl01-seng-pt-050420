@@ -26,7 +26,7 @@ class String
    end
   end
 end
-iteratearr.size
+iteratearr.size, iteratearr
 end
 
    # it "returns the number of sentences in a complex string" do
