@@ -26,6 +26,6 @@ class String
 iteratearr.size #returning new array size of only true values of sentences
 end
 
-=begin # it "returns the number of sentences in a complex string" do
+# it "returns the number of sentences in a complex string" do
    #   complex_string = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
   #    expect(complex_string.count_sentences).to eq(4)
