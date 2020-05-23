@@ -21,11 +21,11 @@ class String
   iteratearr = sentence.split(/\.|\?|\!/)  #self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
   if iteratearr.size.nil?
     0 
- # else iteratearr.each.with_index do |words_punctuations, i| if words_punctuations== "?" || words_punctuations== "." || words_punctuations== "!"
-     
-   end
-  
-
+    iteratearr.each.with_index do |word,i| if word =="" 
+ delete iteratearr[i]
+     end
+  end
+ end
 p iteratearr.size 
 iteratearr
 end
