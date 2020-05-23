@@ -24,8 +24,6 @@ class String
     iteratearr.reject! {|word| word == ""} 
  
      end
-  end
- 
 p iteratearr.size 
 iteratearr
 end
