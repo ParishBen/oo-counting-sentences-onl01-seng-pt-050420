@@ -22,7 +22,7 @@ class String
   if iteratearr.size.nil?
     0 
  # else iteratearr.each.with_index do |words_punctuations, i| if words_punctuations== "?" || words_punctuations== "." || words_punctuations== "!"
-    delete 
+     
    end
   
 
