@@ -18,7 +18,7 @@ class String
 
   def count_sentences(sentence)
   #iteratearr= self.split(".?!") 
-  iteratearr = sentence.split(/\.\?\!/)  #self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
+  iteratearr = sentence.split(/\.|\?|\!/)  #self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
   if iteratearr.size.nil?
     0 
   else iteratearr.each.with_index do |words_punctuations, i| if words_punctuations== "?" || words_punctuations== "." || words_punctuations== "!"
