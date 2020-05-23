@@ -23,10 +23,10 @@ class String
     0 
   else iteratearr.each.with_index do |words_punctuations, i| if words_punctuations== "?" || words_punctuations== "." || words_punctuations== "!"
     delete iteratearr[i]
+   end
   end
-  iteratearr.size
 end
-end
+iteratearr.size
 end
 
    # it "returns the number of sentences in a complex string" do
