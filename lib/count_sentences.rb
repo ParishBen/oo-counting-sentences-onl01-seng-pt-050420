@@ -16,6 +16,6 @@ class String
 
   def count_sentences
   iteratearr= self.split(".?!") 
-  iteratearr.count{ |a| a== "." || a== "?" || a== "!"}
+  iteratearr.size
   end
 end
