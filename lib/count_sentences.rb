@@ -16,6 +16,6 @@ class String
 
   def count_sentences(string)
   iteratearr= string.to_a 
-  iteratearr.count()
+  iteratearr.count{ |a| a==
   end
 end
