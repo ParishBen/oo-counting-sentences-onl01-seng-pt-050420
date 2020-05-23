@@ -9,7 +9,6 @@ class String
   def question?
     if self.end_with?("?") ? true : false
     end 
-    binding.pry
   end
 
   def exclamation?
