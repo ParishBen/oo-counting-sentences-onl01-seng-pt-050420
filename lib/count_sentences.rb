@@ -16,7 +16,7 @@ class String
    
   end
 
-  def count_sentences(sentence)
+  def count_sentences
   #iteratearr= self.split(with characters ".?!") 
   iteratearr = self.split(/\.|\?|\!/)  #this are going to split string & leave with only words & empty spaces
   if iteratearr.size.nil?
