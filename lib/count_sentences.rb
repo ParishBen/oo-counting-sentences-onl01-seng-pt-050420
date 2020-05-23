@@ -25,7 +25,7 @@ class String
     delete 
    end
   end
-end
+
 p iteratearr.size 
 iteratearr
 end
