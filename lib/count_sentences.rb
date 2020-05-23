@@ -24,4 +24,5 @@ class String
     else iteratearr.reject! {|word| word == ""} #taking out empty character values from array
   end
  iteratearr.size                               #returning new array size of only true values of sentences
-end 
+end
+end
