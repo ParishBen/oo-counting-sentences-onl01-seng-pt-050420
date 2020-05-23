@@ -30,4 +30,3 @@ end
    #   complex_string = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
   #    expect(complex_string.count_sentences).to eq(4)
  #   end
-=end # end
