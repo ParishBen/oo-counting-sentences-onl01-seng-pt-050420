@@ -25,7 +25,7 @@ class String
  
      end
   end
- end
+ 
 p iteratearr.size 
 iteratearr
 end
